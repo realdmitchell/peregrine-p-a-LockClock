@@ -24,7 +24,8 @@
         android:id="@+id/clock_panel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal|top" />
+        android:layout_gravity="center_horizontal|top"
+        android:visibility="gone" />
 
     <include layout="@layout/weather_panel"
         android:id="@+id/weather_panel"
